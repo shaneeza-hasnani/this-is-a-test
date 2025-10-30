@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* basic brand colors */
+:root {
+  --brand-rose: #CD8B76;
+  --brand-blue: #95B8D1;
+  --brand-slate: #4D5061;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
